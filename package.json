@@ -1,0 +1,29 @@
+{
+    "name": "expressjs-mongoose",
+    "private": true,
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Faraz Patankar",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "express": "^4.18.2",
+        "mongoose": "^5.12.5",
+        "osmtogeojson": "^2.2.12",
+        "xml2js": "^0.6.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/node": "^14.14.22",
+        "@types/osmtogeojson": "^2.2.30",
+        "@types/xml2js": "^0.4.11",
+        "nodemon": "^2.0.7",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    }
+}
